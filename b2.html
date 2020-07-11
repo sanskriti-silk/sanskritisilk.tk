@@ -1,0 +1,65 @@
+<html>
+	<head>
+		
+<style>
+    h4{font-size:20px;position: fixed;left: 60%;
+       color: #000000;
+       text-align: center;
+    text-transform: capitalize;}
+    #b{width: 500px;}
+    p{color: #4b9303;
+      font-weight: 1000;font-size: 25px}
+h3{
+ font-family: Gabriola;
+ }
+.button {
+				  background-color: #4CAF50;
+				  border: none;
+				  color: white;
+				  padding: 15px 32px;
+				  text-align: center;
+				  text-decoration: none;
+				  display: inline-block;
+				  font-size: 16px;
+				  margin: 4px 2px;
+				  cursor: pointer;
+				} 
+	  
+        </style>
+		<link rel="stylesheet" href="jquery.wm-zoom-1.0.min.css">
+    </head>
+	<title> product</title>
+	<body>
+	<h3>if you are using mobile phone then "hold the image for a while and then tap on the area where you want to zoom in" </h3>
+					  			<div class="wm-zoom-container my-zoom-1">
+			  				<div class="wm-zoom-box"><h4>Code 1017<br>
+							 <button onclick="myFunction()"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpcQezTnzVOMLxkqspuVb2OwJiTCQfH0bA-RyApJn_w62BdQ/viewform" class="button">Buy now</a></button>
+                             <p></p></h4>
+							 
+								<img id="b" src="b2.jpg" class="wm-zoom-default-img" alt="alternative text" data-hight-src="b2.jpg" data-loader-src="img/loader.gif">
+			  				</div>
+			  			</div><br><hr><br>	
+						
+        
+			  			
+
+		<script type="text/javascript" src="jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="jquery.wm-zoom-1.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.my-zoom-1').WMZoom();
+				$('.my-zoom-2').WMZoom({
+					config : {
+						inner : true
+					}
+				});
+			});
+        </script>
+		<script>
+function myFunction() {
+  alert("please check your code it is important for confirmation of your product");
+}
+</script>
+
+	</body>
+</html>
